@@ -1,0 +1,16 @@
+{
+  "limits": [
+    {"service": "compute", "name": "vm-standard-e5-core-count", "scope": "region",
+     "limit": 8, "used": 8},
+    {"service": "block-storage", "name": "total-storage-gb", "scope": "region",
+     "limit": 500, "used": 460},
+    {"service": "load-balancer", "name": "lb-count", "scope": "region",
+     "limit": 10, "used": 8},
+    {"service": "object-storage", "name": "bucket-count", "scope": "tenancy",
+     "limit": 100, "used": 12},
+    {"service": "functions", "name": "concurrent-executions", "scope": "region",
+     "limit": 0, "used": 5},
+    {"service": "database", "name": "adb-ocpu-count", "scope": "tenancy",
+     "limit": 20, "used": 3}
+  ]
+}
