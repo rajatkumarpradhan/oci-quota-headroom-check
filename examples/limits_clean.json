@@ -1,0 +1,12 @@
+{
+  "limits": [
+    {"service": "compute", "name": "vm-standard-e5-core-count", "scope": "region",
+     "limit": 16, "used": 6},
+    {"service": "block-storage", "name": "total-storage-gb", "scope": "region",
+     "limit": 1000, "used": 460},
+    {"service": "load-balancer", "name": "lb-count", "scope": "region",
+     "limit": 10, "used": 3},
+    {"service": "database", "name": "adb-ocpu-count", "scope": "tenancy",
+     "limit": 20, "used": 3}
+  ]
+}
